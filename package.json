@@ -1,23 +1,14 @@
 {
-  "name": "webcam",
+  "name": "gum",
   "version": "1.0.0",
   "description": "",
   "main": "scripts.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "browser-sync start --server --files \"*.css, *.html, *.js\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kyle-merryman/webcam.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kyle-merryman/webcam/issues"
-  },
-  "homepage": "https://github.com/kyle-merryman/webcam#readme",
-  "dependencies": {
-    "browser-sync": "^2.26.3"
+  "devDependencies": {
+    "browser-sync": "^2.23.1"
   }
 }
